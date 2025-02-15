@@ -12,6 +12,10 @@ body {
     font-family: 'Jersey 10';
 }
 
+
+/*------ HOME PAGE ------*/
+
+
 .mainDiv {
     display: flex;
     flex-direction: column;
@@ -19,11 +23,139 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    padding: 32px;
 }
 
-/*------ HOME PAGE ------*/
+.mainDiv h1 {
+    text-align: center;
+    letter-spacing: 12px;
+    font-size: 56px;
+    margin: 16px;
+}
+
+.mainDiv p {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.mainDiv img {
+    width: 248px;
+    height: 248px;
+    margin: 24px;
+}
+
+.mainDiv #start-btn {
+    font-family: 'Jersey 10';
+    font-size: 40px;
+    color: white;
+    padding: 8px 40px;
+    background-color: #BF0200;
+    border: 4px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #222;
+}
+.mainDiv #start-btn:hover {
+    transform: scale(1.1) perspective(1px);
+    transition: 0.3 ease;
+    cursor: pointer;
+}
+
 /*------ SET TASK PAGE ------*/
+
+
+.setTaskDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.setTaskDiv h1 {
+    text-align: center;
+    letter-spacing: 12px;
+    font-size: 56px;
+    margin: 16px;
+}
+
+.setTaskDiv img {
+    width: 40px;
+    height: 40px;
+    margin: 16px;
+}
+
+.setTaskDiv p {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.setTaskDiv #task-value {
+    border: none;
+    border-radius: 50px;
+    padding: 16px;
+    margin-top: 24px;
+    margin-bottom: 56px;
+}
+
+.setTaskDiv #set-timer-btn {
+    font-family: 'Jersey 10';
+    font-size: 40px;
+    color: white;
+    padding: 8px 40px;
+    background-color: #BF0200;
+    border: 4px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #222;
+}
+.setTaskDiv #set-timer-btn:hover {
+    transform: scale(1.1) perspective(1px);
+    transition: 0.3 ease;
+    cursor: pointer;
+}
+
+
 /*------ LET'S GO PAGE ------*/
+
+
+.timerBeginsDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.timerBeginsDiv h1 {
+    text-align: center;
+    letter-spacing: 12px;
+    font-size: 56px;
+    margin-bottom: 64px;
+}
+
+.timerBeginsDiv img {
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+}
+
+.timerBeginsDiv #task {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.timerBeginsDiv #time-remaining {
+    text-align: center;
+    font-size: 196px;
+    letter-spacing: 4px;
+}
+
+
 /*------ STOP PAGE ------*/
 /*------ BREAK TIME PAGE ------*/
 /*------ GET BACK TO IT PAGE ------*/

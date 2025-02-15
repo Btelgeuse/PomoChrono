@@ -3,16 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Pomo Chrono !</title>
   </head>
   <body>
     <div class="mainDiv">
-      <h1>Pomo Chrono</h1>
+      <h1>POMO CHRONO</h1>
       <p>Study smarter with this pomodoro timer !</p>
-      <img src="" alt="Pomodoro Menu" />
+      <img src="./assets/pomoMenu.png" alt="Pomodoro Menu" />
       <button id="start-btn">START</button>
     </div>
 
-    <script src="main.js"></script>
+    <script>
+      document.getElementById("start-btn").addEventListener("click", () => {
+        window.electronAPI.loadPage("setTask.html");
+      });
+    </script>
   </body>
 </html>
