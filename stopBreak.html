@@ -7,16 +7,16 @@
     <title>Pomo Chrono !</title>
   </head>
   <body>
-    <div class="stopWorkDiv">
+    <div class="stopBreakDiv">
       <audio
         src="./assets/clock_alarm.wav"
         autoplay
         style="display: none"
       ></audio>
-      <h1>BREAK TIME !</h1>
+      <h1>BACK TO WORK !</h1>
       <p id="task"></p>
       <p id="time-remaining">00:00</p>
-      <button id="start-break-btn">START BREAK</button>
+      <button id="start-timer-btn">START TIMER</button>
     </div>
 
     <script>
@@ -29,9 +29,9 @@
       }
 
       document
-        .getElementById("start-break-btn")
+        .getElementById("start-timer-btn")
         .addEventListener("click", () => {
-          window.electronAPI.loadPage("startBreak.html");
+          window.electronAPI.loadPage("timerBegins.html");
         });
     </script>
   </body>

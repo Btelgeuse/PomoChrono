@@ -20,7 +20,7 @@ function startCountdown(durationMins) {
       duration--;
     } else {
       clearInterval(interval);
-      window.electronAPI.loadPage("stopWork.html");
+      window.electronAPI.loadPage("stopBreak.html");
     }
   }
 
@@ -30,5 +30,5 @@ function startCountdown(durationMins) {
 
 // Start a 30-minute countdown when the page loads
 window.onload = function () {
-  startCountdown(25);
+  startCountdown(10);
 };

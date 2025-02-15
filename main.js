@@ -14,7 +14,7 @@ function createWindow() {
 
   win.removeMenu();
   win.loadFile("index.html");
-  win.webContents.openDevTools(); //Open the console
+  //win.webContents.openDevTools(); //Open the console
   ipcMain.on("load-page", (event, page) => {
     win.loadFile(page);
   });

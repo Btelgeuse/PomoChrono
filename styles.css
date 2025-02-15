@@ -157,5 +157,133 @@ body {
 
 
 /*------ STOP PAGE ------*/
-/*------ BREAK TIME PAGE ------*/
+
+
+.stopWorkDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.stopWorkDiv h1 {
+    text-align: center;
+    letter-spacing: 12px;
+    font-size: 56px;
+    margin-bottom: 64px;
+}
+
+.stopWorkDiv #task {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.stopWorkDiv #time-remaining {
+    text-align: center;
+    font-size: 196px;
+    letter-spacing: 4px;
+}
+
+.stopWorkDiv #start-break-btn {
+    font-family: 'Jersey 10';
+    font-size: 40px;
+    color: white;
+    padding: 8px 40px;
+    background-color: #BF0200;
+    border: 4px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #222;
+}
+.stopWorkDiv #start-break-btn:hover {
+    transform: scale(1.1) perspective(1px);
+    transition: 0.3 ease;
+    cursor: pointer;
+}
+
+
+/*------ TAKING A BREAK ------*/
+
+.takingBreakDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.takingBreakDiv h1 {
+    text-align: center;
+    letter-spacing: 12px;
+    font-size: 40px;
+    margin-bottom: 64px;
+}
+
+.takingBreakDiv img {
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+}
+
+.takingBreakDiv #task {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.takingBreakDiv #time-remaining {
+    text-align: center;
+    font-size: 196px;
+    letter-spacing: 4px;
+}
+
+
 /*------ GET BACK TO IT PAGE ------*/
+
+
+.stopBreakDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.stopBreakDiv h1 {
+    text-align: center;
+    letter-spacing: 12px;
+    font-size: 56px;
+    margin-bottom: 64px;
+}
+
+.stopBreakDiv #task {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.stopBreakDiv #time-remaining {
+    text-align: center;
+    font-size: 196px;
+    letter-spacing: 4px;
+}
+
+.stopBreakDiv #start-timer-btn {
+    font-family: 'Jersey 10';
+    font-size: 40px;
+    color: white;
+    padding: 8px 40px;
+    background-color: #BF0200;
+    border: 4px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #222;
+}
+.stopBreakDiv #start-timer-btn:hover {
+    transform: scale(1.1) perspective(1px);
+    transition: 0.3 ease;
+    cursor: pointer;
+}
