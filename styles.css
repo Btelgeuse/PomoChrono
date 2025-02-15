@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BF0200;
+    color: white;
+    font-family: 'Jersey 10';
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------ HOME PAGE ------*/
+/*------ SET TASK PAGE ------*/
+/*------ LET'S GO PAGE ------*/
+/*------ STOP PAGE ------*/
+/*------ BREAK TIME PAGE ------*/
+/*------ GET BACK TO IT PAGE ------*/
